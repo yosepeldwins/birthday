@@ -75,7 +75,7 @@ st.markdown("<div class='card'>", unsafe_allow_html=True)
 if st.session_state.step == 0:
     st.markdown("<div class='title'>❤️ Selamat Ulang Tahun ❤️</div>", unsafe_allow_html=True)
     st.markdown("<div class='text'>Untuk Inosensia Yesika Cara</div>", unsafe_allow_html=True)
-    st.image("foto.jpg", use_container_width=True)
+    st.image("foto.jpeg", use_container_width=True)
 
     if st.button("💌 Buka pesanku"):
         st.session_state.step = 1
@@ -136,3 +136,4 @@ elif st.session_state.step == 4:
     """, unsafe_allow_html=True)
 
 st.markdown("</div>", unsafe_allow_html=True)
+
